@@ -73,3 +73,7 @@ messageテーブル
 Association
 - belongs_to :user
 - belongs_to :group
+
+# README
+## how to use GitHub Desktop
+## how to use git revert
