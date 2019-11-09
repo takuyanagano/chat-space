@@ -1,6 +1,16 @@
-<!DOCTYPE html>
-%html{lang: "ja"}
-  %head
-    %meta{charset: "utf-8"}
-  %body
-    hello wold!
+.side-bar
+  .header
+    .header__name
+      ユーザーネーム
+    %ul.header__lists
+      %li.list
+        = link_to '#' do
+          = icon('fa', 'edit',class: 'icon')
+      %li.list
+        = link_to '#' do
+          = icon('fa', 'cog',class: 'icon')
+  .groups
+    .group
+      グループ名
+    .group
+      グループ名
